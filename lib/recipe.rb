@@ -8,6 +8,14 @@ class Recipe
 
   def add_ingredient(ingredient, amount)
     @ingredients_required[ingredient] += amount
-  end 
+  end
+
+  # def ingredients
+  #   require "pry";binding.pry
+  #   @ingredients_required.flat_map do |ingredient|
+  #     ingredient
+  #   end
+  # end
+
 
 end
